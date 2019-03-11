@@ -12,7 +12,6 @@ public class TestController {
 
     @RequestMapping(value="")
     public String home(){
-        System.out.println("redirect to templates.home page!");
         return "home/index";
     }
 }
