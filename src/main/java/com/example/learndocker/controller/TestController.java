@@ -10,8 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/")
 public class TestController {
 
-    @RequestMapping(value="")
-    public String home(){
+    @RequestMapping(value = "")
+    public String home() {
+        System.out.println("it's index！");
         return "home/index";
     }
 }
